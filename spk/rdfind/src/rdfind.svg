@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46667 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="rdfind-bw.svg"
+   inkscape:export-filename="/Users/Diego/workspace/spksrc/diyspk/rdfind/src/rdfind.png"
+   inkscape:export-xdpi="96.000008"
+   inkscape:export-ydpi="96.000008"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:zoom="0.94867184"
+     inkscape:cx="341.00306"
+     inkscape:cy="225.05148"
+     inkscape:window-width="1680"
+     inkscape:window-height="1005"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-50.290383,-116.73607)">
+    <rect
+       style="fill:#333333;stroke:none;stroke-width:1.26381"
+       id="rect31"
+       width="34.783569"
+       height="49.033009"
+       x="62.492893"
+       y="145.02446"
+       rx="1.2025725"
+       ry="3.5063488" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.2415px;line-height:1.25;font-family:'Roboto Mono for Powerline';-inkscape-font-specification:'Roboto Mono for Powerline Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.531038"
+       x="57.911819"
+       y="243.20128"
+       id="text9201"><tspan
+         sodipodi:role="line"
+         id="tspan9199"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Mono for Powerline';-inkscape-font-specification:'Roboto Mono for Powerline Bold';stroke-width:0.531038"
+         x="57.911819"
+         y="243.20128">rdfind</tspan></text>
+    <rect
+       style="fill:#ff0000;stroke:none;stroke-width:0.363726"
+       id="rect12089"
+       width="14.981762"
+       height="9.4293947"
+       x="82.294701"
+       y="145.02446"
+       rx="0.51796454"
+       ry="0.67429572" />
+    <rect
+       style="fill:#4d4d4d;stroke:none;stroke-width:1.26381"
+       id="rect211"
+       width="34.783569"
+       height="49.033009"
+       x="72.735764"
+       y="153.73247"
+       rx="1.2025725"
+       ry="3.5063488" />
+    <rect
+       style="fill:#808080;stroke:none;stroke-width:1.26381"
+       id="rect231"
+       width="34.783569"
+       height="49.033009"
+       x="83.818657"
+       y="164.02371"
+       rx="1.2025725"
+       ry="3.5063488" />
+    <rect
+       style="fill:#999999;stroke:none;stroke-width:1.26381"
+       id="rect251"
+       width="34.783569"
+       height="49.033009"
+       x="95.693184"
+       y="174.31497"
+       rx="1.2025725"
+       ry="3.5063488" />
+    <rect
+       style="fill:#ff0000;stroke:none;stroke-width:0.782669"
+       id="rect3651"
+       width="34.783569"
+       height="18.805397"
+       x="95.693184"
+       y="174.31497"
+       rx="1.2025725"
+       ry="1.3447734" />
+    <g
+       id="g12222">
+      <g
+         id="g1942"
+         transform="matrix(3.372444,0,0,2.7847073,-54.554273,-228.24707)"
+         style="stroke:none">
+        <path
+           id="path1940"
+           style="fill:#ffffff;fill-opacity:0.62753;stroke:none;stroke-width:1.36556"
+           d="M 52.870323,128.54653 A 11.313505,11.501349 0 0 1 64.18398,140.04797 11.313505,11.501349 0 0 1 52.870323,151.54892 11.313505,11.501349 0 0 1 41.557186,140.04797 11.313505,11.501349 0 0 1 52.870323,128.54653 v 0" />
+      </g>
+      <g
+         id="g401"
+         transform="matrix(3.372444,0,0,2.7847073,-189.83722,-224.74445)"
+         style="fill:#000000">
+        <path
+           id="path317"
+           style="fill:#000000;stroke:#000000;stroke-width:1.36556"
+           d="m 92.795322,124.21124 a 15.09211,13.993405 0 0 0 -15.092094,13.99328 15.09211,13.993405 0 0 0 15.092094,13.99378 15.09211,13.993405 0 0 0 2.638145,-0.21606 c 0.03641,1.05495 0.474682,2.51945 1.524175,4.5919 4.831418,9.54072 1.743473,15.58915 6.656518,12.96713 1.88128,-1.00403 2.15036,-2.29729 -0.61658,-10.01559 -1.38308,-4.57284 -1.46841,-7.9336 -1.65988,-9.78478 a 15.09211,13.993405 0 0 0 6.54971,-11.53638 15.09211,13.993405 0 0 0 -15.092088,-13.99328 z m 0,2.86785 a 11.313505,11.501349 0 0 1 11.313658,11.50144 11.313505,11.501349 0 0 1 -11.313658,11.50095 11.313505,11.501349 0 0 1 -11.313136,-11.50095 11.313505,11.501349 0 0 1 11.313136,-11.50144 z" />
+      </g>
+    </g>
+  </g>
+</svg>
