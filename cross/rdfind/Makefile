@@ -19,7 +19,7 @@ ADDITIONAL_CFLAGS = -fpic -fPIC -O3 -D_FILE_OFFSET_BITS=64
 PRE_CONFIGURE_TARGET = rdfind_pre_configure
 GNU_CONFIGURE = 1
 
-POST_COMPILE_TARGET = rdfind_post_compile
+#POST_COMPILE_TARGET = rdfind_post_compile
 
 include ../../mk/spksrc.cross-cc.mk
 
@@ -30,8 +30,8 @@ rdfind_pre_configure:
 .PHONY: rdfind_post_compile
 rdfind_post_compile:
 	$(RUN)
-#	if [ "$(shell id -u)" = 0 ]; then \
-#	    $(RUN) setpriv --reuid=1000 --regid=1000 --clear-groups $(MAKE) check; \
-#	else \
-#	    $(RUN) $(MAKE) check; \
-#	fi
+	@if [ "$(shell id -u)" = 0 ]; then \
+	    $(RUN) setpriv --reuid=1000 --regid=1000 --clear-groups $(MAKE) check; \
+	else \
+	    $(RUN) $(MAKE) $(AM_MAKEFLAGS) check; \
+	fi
