@@ -17,3 +17,4 @@ LICENSE = GPLv2
 SPK_COMMANDS = bin/rdfind
 
 include ../../mk/spksrc.spk.mk
+
