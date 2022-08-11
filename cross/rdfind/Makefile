@@ -44,13 +44,13 @@ bootstrap_rdfind:
 .PHONY: test_rdfind_deps
 test_rdfind_deps: prepare_test_libs
 	@echo "$(green)Running rdfind dependency tests $(clr)[$(blue)make check$(clr)] $(green)for $(clr)($(blue)gmp$(clr))"
-	$(ENV) $(MAKE) -C $(WORK_DIR)/gmp-* check
+	$(ENV) AM_COLOR_TESTS=always $(MAKE) -C $(WORK_DIR)/gmp-* check
 
 .PHONY: test_rdfind
 test_rdfind:
 	@echo "$(green)Running $(clr)[$(blue)rdfind$(clr)]$(green) tests$(clr)"
 	if [ "$(shell id -u)" = 0 ]; then\
-	    $(RUN) setpriv --reuid=1000 --regid=1000 --clear-groups $(MAKE) check; \
+	    $(RUN) AM_COLOR_TESTS=always setpriv --reuid=1000 --regid=1000 --clear-groups $(MAKE) check; \
 	else \
-	    $(RUN) $(MAKE) check; \
+	    $(RUN) AM_COLOR_TESTS=always $(MAKE) check; \
 	fi
