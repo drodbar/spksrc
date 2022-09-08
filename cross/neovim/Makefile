@@ -17,3 +17,18 @@ CONFIGURE_TARGET = nop
 CMAKE_ARGS = CMAKE_BUILD_TYPE=Release CMAKE_INSTALL_PREFIX=/var/packages/neovim
 
 include ../../mk/spksrc.cross-cc.mk
+
+POST_DEPEND_TARGET = prepare_test_libs
+SYSROOT_LIB = $(PWD)/../../toolchain/$(TC)/work/$(TC_TARGET)/$(TC_TARGET)/sysroot/lib
+TEST_LIB_DIR = $(WORK_DIR)/lib
+ENV += QEMU_LD_PREFIX=$(WORK_DIR)
+
+.PHONY: prepare_test_libs
+prepare_test_libs:
+	mkdir -pv $(TEST_LIB_DIR) && \
+	ln -svf $(SYSROOT_LIB)/* $(TEST_LIB_DIR)/ && \
+
+#.PHONY: test_rdfind_deps
+#test_rdfind_deps: prepare_test_libs
+#	@echo "$(green)Running rdfind dependency tests $(clr)[$(blue)make check$(clr)] $(green)for $(clr)($(blue)gmp$(clr))"
+#	$(ENV) AM_COLOR_TESTS=always $(MAKE) -C $(WORK_DIR)/gmp-* check
