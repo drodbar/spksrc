@@ -26,7 +26,7 @@ ENV += QEMU_LD_PREFIX=$(WORK_DIR)
 .PHONY: prepare_test_libs
 prepare_test_libs:
 	mkdir -pv $(TEST_LIB_DIR) && \
-	ln -svf $(SYSROOT_LIB)/* $(TEST_LIB_DIR)/ && \
+	ln -svf $(SYSROOT_LIB)/* $(TEST_LIB_DIR)/
 
 #.PHONY: test_rdfind_deps
 #test_rdfind_deps: prepare_test_libs
