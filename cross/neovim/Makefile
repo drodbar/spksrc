@@ -18,7 +18,7 @@ CMAKE_ARGS = CMAKE_BUILD_TYPE=Release CMAKE_INSTALL_PREFIX=/var/packages/neovim
 
 include ../../mk/spksrc.cross-cc.mk
 
-POST_DEPEND_TARGET = prepare_test_libs
+PRE_COMPILE_TARGET = prepare_test_libs
 SYSROOT_LIB = $(PWD)/../../toolchain/$(TC)/work/$(TC_TARGET)/$(TC_TARGET)/sysroot/lib
 TEST_LIB_DIR = $(WORK_DIR)/lib
 ENV += QEMU_LD_PREFIX=$(WORK_DIR)
