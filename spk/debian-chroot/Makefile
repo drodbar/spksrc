@@ -5,7 +5,7 @@ SPK_ICON = src/debian.png
 DSM_UI_DIR = app
 
 DEPENDS =
-WHEELS = pyextdirect==0.3.1 flask Werkzeug Jinja2 itsdangerous
+WHEELS = pyextdirect==0.3.1 flask Werkzeug Jinja2 itsdangerous sqlalchemy
 SPK_DEPENDS = "python>=2.7.6-8"
 
 UNSUPPORTED_ARCHS = $(PPC_ARCHS) $(ARMv8_ARCHS)
@@ -59,7 +59,7 @@ include ../../mk/spksrc.spk.mk
 .PHONY: debian-chroot_extra_install
 debian-chroot_extra_install:
 	install -m 755 -d $(STAGING_DIR)/var
-	debootstrap --foreign --arch $(DEBIAN_ARCH) jessie $(STAGING_DIR)/var/chroottarget "http://ftp.debian.org/debian"
+	debootstrap --foreign --arch $(DEBIAN_ARCH) buster $(STAGING_DIR)/var/chroottarget "http://ftp.debian.org/debian"
 	install -m 644 src/sources.list $(STAGING_DIR)/var/chroottarget/etc/apt/sources.list.default
 	install -m 644 src/preferences $(STAGING_DIR)/var/chroottarget/etc/apt/preferences.default
 	install -m 644 src/policy-rc.d $(STAGING_DIR)/var/chroottarget/usr/sbin/policy-rc.d
